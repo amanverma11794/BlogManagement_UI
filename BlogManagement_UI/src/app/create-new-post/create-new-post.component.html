@@ -26,7 +26,7 @@
                       </div>
                       <div class="col-md-8">
                         <div class="form-group">
-                          <label for="postDetails">Post Details<span class="text-danger">*</span></label>
+                          <label for="postDetails">Post Text<span class="text-danger">*</span></label>
                           <textarea id="postDetails" class="form-control" formControlName="postDetails" maxlength="500" autocomplete="off"></textarea>
                           <div *ngIf="postForm.get('postDetails')?.invalid && postForm.get('postDetails')?.touched
                                || (formSubmitted && postForm.get('postDetails')?.invalid)" class="text-danger">
